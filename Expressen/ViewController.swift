@@ -105,6 +105,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if(item.color == 2){
             cell.textLabel?.textColor = .red
         }
+        else{
+            cell.textLabel?.textColor = .black
+        }
         
         if let url = URL(string: item.image?.src ?? ""){
             
